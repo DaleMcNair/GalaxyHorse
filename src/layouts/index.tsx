@@ -1,8 +1,8 @@
-import * as React from 'react'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
+import Link from 'gatsby-link';
+import * as React from 'react';
+import Helmet from 'react-helmet';
+import './index.css';
 
-import './index.css'
 
 const Header = () => (
   <div
@@ -45,10 +45,10 @@ class DefaultLayout extends React.PureComponent<DefaultLayoutProps, void> {
     return (
       <div>
         <Helmet
-          title="Gatsby Default Starter"
+          title="Galaxy Horse"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Galaxy Horse. Games; galactically obtuse creations which are of equine origin since 2017.' },
+            { name: 'keywords', content: 'Video Games, Galaxy Horse, ' },
           ]}
         />
         <Header />

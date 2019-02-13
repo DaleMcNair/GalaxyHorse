@@ -1,16 +1,19 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
+  "name": "galaxy-horse",
+  "description": "Galaxy Horse",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dale McNair",
   "dependencies": {
-    "@types/node": "^8.0.7",
-    "@types/react": "15.0.21",
-    "@types/react-dom": "0.14.23",
-    "gatsby": "^1.9.119",
-    "gatsby-link": "^1.6.28",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typescript": "^1.4.10"
+    "@types/node": "^11.9.3",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "gatsby": "^2.0.119",
+    "gatsby-link": "^2.0.10",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-typescript": "^2.0.7",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby, typescript"
