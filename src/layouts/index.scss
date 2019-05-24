@@ -2,7 +2,7 @@
 html {
   font-family: "Press Start 2P", sans-serif;
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #15202c 0%, #090a0f 100%);
   overflow: hidden;
 }
 
@@ -10,23 +10,9 @@ h1 {
   font-size: 2.5em;
 }
 
-.main-container {
-  background: #000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
 .nes-container {
   position: inherit !important;
   padding: 0 !important;
-}
-
-.content-container {
-  width: 50%;
 }
 
 // n is number of stars required
@@ -40,7 +26,7 @@ h1 {
 }
 
 $generate-stars-small: multiple-box-shadow(600);
-$generate-stars-medium: multiple-box-shadow(200);
+$generate-stars-medium: multiple-box-shadow(400);
 $generate-stars-large: multiple-box-shadow(200);
 
 #stars {
