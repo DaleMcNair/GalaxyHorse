@@ -57,7 +57,7 @@ $generate-stars-large: multiple-box-shadow(200);
     width: 1px;
     height: 1px;
     background: transparent;
-    box-shadow: $shadows-small;
+    box-shadow: $generate-stars-small;
   }
 }
 
