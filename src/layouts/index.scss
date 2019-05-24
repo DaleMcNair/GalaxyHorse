@@ -21,8 +21,8 @@ h1 {
 }
 
 .nes-container {
-  position: inherit;
-  padding: 0;
+  position: inherit !important;
+  padding: 0 !important;
 }
 
 .content-container {
@@ -39,15 +39,15 @@ h1 {
   @return unquote($value);
 }
 
-$shadows-small: multiple-box-shadow(1000);
-$shadows-medium: multiple-box-shadow(300);
-$shadows-big: multiple-box-shadow(200);
+$generate-stars-small: multiple-box-shadow(1000);
+$generate-stars-medium: multiple-box-shadow(300);
+$generate-stars-large: multiple-box-shadow(200);
 
 #stars {
   width: 1px;
   height: 1px;
   background: transparent;
-  box-shadow: $shadows-small;
+  box-shadow: $generate-stars-small;
   animation: animStar 50s linear infinite;
 
   &:after {
@@ -65,7 +65,7 @@ $shadows-big: multiple-box-shadow(200);
   width: 2px;
   height: 2px;
   background: transparent;
-  box-shadow: $shadows-medium;
+  box-shadow: $generate-stars-medium;
   animation: animStar 100s linear infinite;
 
   &:after {
@@ -75,7 +75,7 @@ $shadows-big: multiple-box-shadow(200);
     width: 2px;
     height: 2px;
     background: transparent;
-    box-shadow: $shadows-medium;
+    box-shadow: $generate-stars-medium;
   }
 }
 
@@ -83,7 +83,7 @@ $shadows-big: multiple-box-shadow(200);
   width: 3px;
   height: 3px;
   background: transparent;
-  box-shadow: $shadows-big;
+  box-shadow: $generate-stars-large;
   animation: animStar 150s linear infinite;
 
   &:after {
@@ -93,7 +93,7 @@ $shadows-big: multiple-box-shadow(200);
     width: 3px;
     height: 3px;
     background: transparent;
-    box-shadow: $shadows-big;
+    box-shadow: $generate-stars-large;
   }
 }
 
