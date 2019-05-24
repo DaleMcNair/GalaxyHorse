@@ -2,9 +2,5 @@ module.exports = {
   siteMetadata: {
     title: `Galaxy Horse`
   },
-  plugins: [
-    `gatsby-plugin-react-helmet`,
-    // Add typescript stack into webpack
-    `gatsby-plugin-typescript`
-  ]
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-typescript`, `gatsby-plugin-sass`]
 };
