@@ -30,17 +30,17 @@ h1 {
 }
 
 // n is number of stars required
-@function multiple-box-shadow($n) {
+@function multiple-box-shadow($starCount) {
   $value: "#{random(2560)}px #{random(2560)}px #FFF";
-  @for $i from 2 through $n {
+  @for $i from 2 through $starCount {
     $value: "#{$value} , #{random(2560)}px #{random(2560)}px #FFF";
   }
 
   @return unquote($value);
 }
 
-$generate-stars-small: multiple-box-shadow(1000);
-$generate-stars-medium: multiple-box-shadow(300);
+$generate-stars-small: multiple-box-shadow(600);
+$generate-stars-medium: multiple-box-shadow(200);
 $generate-stars-large: multiple-box-shadow(200);
 
 #stars {
@@ -99,22 +99,22 @@ $generate-stars-large: multiple-box-shadow(200);
 
 #title {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 0;
   right: 0;
 
   color: #fff;
   text-align: center;
   font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
 
   margin-top: -60px;
   padding-left: 10px;
 }
 
 span {
-  background: -webkit-linear-gradient(white, #6289af);
+  background: -webkit-linear-gradient(white, #a0bfdf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
