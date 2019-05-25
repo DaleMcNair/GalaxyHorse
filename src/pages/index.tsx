@@ -35,7 +35,7 @@ export default class extends React.Component<IndexPageProps, {}> {
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />
-        <div id="title">
+        <div className="content">
           <h3>
             <span>Galaxy Horse</span>
           </h3>

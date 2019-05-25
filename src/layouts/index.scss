@@ -110,14 +110,12 @@ $generate-stars-large: multiple-box-shadow(200);
   }
 }
 
-#title {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-
-  color: #fff;
-  text-align: center;
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
   font-weight: 300;
 
   margin-top: -60px;
