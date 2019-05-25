@@ -1,3 +1,4 @@
+import { Container } from "nes-react";
 import * as React from "react";
 import Helmet from "react-helmet";
 import "../layouts/index.scss";
@@ -20,7 +21,7 @@ export default class extends React.Component<IndexPageProps, {}> {
   }
   public render() {
     return (
-      <>
+      <Container>
         <Helmet
           title="Galaxy Horse"
           meta={[
@@ -32,6 +33,7 @@ export default class extends React.Component<IndexPageProps, {}> {
             { name: "keywords", content: "Video Games, Galaxy Horse, " }
           ]}
         />
+        <div id="sun" />
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />
@@ -41,7 +43,7 @@ export default class extends React.Component<IndexPageProps, {}> {
           </h3>
           <span>Just like ... make game</span>
         </div>
-      </>
+      </Container>
     );
   }
 }
