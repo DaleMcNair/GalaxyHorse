@@ -2,8 +2,35 @@
 html {
   font-family: "Press Start 2P", sans-serif;
   height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   background: radial-gradient(ellipse at bottom, #15202c 0%, #090a0f 100%);
   overflow: hidden;
+}
+
+@media screen and (min-width: 380px) {
+  body {
+    font-size: 90%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    font-size: 150%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 200%;
+  }
 }
 
 h1 {
@@ -92,11 +119,8 @@ $generate-stars-large: multiple-box-shadow(200);
   color: #fff;
   text-align: center;
   font-weight: 300;
-  font-size: 2rem;
-  letter-spacing: 0.5rem;
 
   margin-top: -60px;
-  padding-left: 10px;
 }
 
 span {
