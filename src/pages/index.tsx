@@ -33,7 +33,7 @@ export default class extends React.Component<IndexPageProps, {}> {
             { name: "keywords", content: "Video Games, Galaxy Horse, " }
           ]}
         />
-        <div id="sun" />
+        {/* <div id="sun" /> */}
         <div id="stars" />
         <div id="stars2" />
         <div id="stars3" />

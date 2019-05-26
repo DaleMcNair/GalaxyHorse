@@ -9,6 +9,23 @@ html {
   overflow: hidden;
 }
 
+#sun {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  overflow: hidden;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(255, 251, 0, 0.897);
+  opacity: 0.9;
+  box-shadow: 0px 0px 40px 15px rgba(240, 224, 6, 0.404);
+}
+
 // n is number of stars required
 @function multiple-box-shadow($starCount) {
   $value: "#{random(2560)}px #{random(2560)}px #FFF";
@@ -109,15 +126,9 @@ h1 {
   font-size: 2.5em;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (max-width: 400px) {
   body {
-    font-size: 90%;
-  }
-}
-
-@media screen and (min-width: 450px) {
-  body {
-    font-size: 120%;
+    font-size: 125%;
   }
 }
 
@@ -144,7 +155,7 @@ body {
   border: none !important;
   background: none !important;
 
-  ::after {
+  &::after {
     border: none !important;
     top: 0 !important;
     left: 0 !important;
