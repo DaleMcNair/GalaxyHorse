@@ -28,9 +28,12 @@ export default class extends React.Component<IndexPageProps, {}> {
             {
               name: "description",
               content:
-                "Galaxy Horse. Games; galactically obtuse creations which are of equine origin since 2017."
+                "Galaxy Horse. Games; galactically obtuse creations of equine origin since 2017."
             },
-            { name: "keywords", content: "Video Games, Galaxy Horse, " }
+            {
+              name: "keywords",
+              content: "Video Games, Galaxy Horse, Game Developer, Game Development"
+            }
           ]}
         />
         {/* <div id="sun" /> */}
